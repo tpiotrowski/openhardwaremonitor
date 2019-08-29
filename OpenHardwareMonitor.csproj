@@ -292,12 +292,6 @@
   <ItemGroup>
     <EmbeddedResource Include="Resources\ram.png" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="OpenHardwareMonitorLib.csproj">
-      <Project>{b0397530-545a-471d-bb74-027ae456df1a}</Project>
-      <Name>OpenHardwareMonitorLib</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio AllowExistingFolder="true" />

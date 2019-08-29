@@ -1,0 +1,213 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>OpenHardwareMonitorCore</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\ati.png" />
+    <None Remove="Resources\barback.png" />
+    <None Remove="Resources\barblue.png" />
+    <None Remove="Resources\bigng.png" />
+    <None Remove="Resources\chip.png" />
+    <None Remove="Resources\clock.png" />
+    <None Remove="Resources\computer.png" />
+    <None Remove="Resources\control.png" />
+    <None Remove="Resources\cpu.png" />
+    <None Remove="Resources\data.png" />
+    <None Remove="Resources\factor.png" />
+    <None Remove="Resources\fan.png" />
+    <None Remove="Resources\flow.png" />
+    <None Remove="Resources\gadget.png" />
+    <None Remove="Resources\hdd.png" />
+    <None Remove="Resources\level.png" />
+    <None Remove="Resources\load.png" />
+    <None Remove="Resources\mainboard.png" />
+    <None Remove="Resources\nvidia.png" />
+    <None Remove="Resources\power.png" />
+    <None Remove="Resources\ram.png" />
+    <None Remove="Resources\smallicon.ico" />
+    <None Remove="Resources\temperature.png" />
+    <None Remove="Resources\voltage.png" />
+    <None Remove="Resources\Web\css\custom-theme\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <None Remove="Resources\Web\css\custom-theme\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <None Remove="Resources\Web\css\custom-theme\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <None Remove="Resources\Web\css\custom-theme\images\ui-bg_glass_75_dadada_1x400.png" />
+    <None Remove="Resources\Web\css\custom-theme\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <None Remove="Resources\Web\css\custom-theme\images\ui-bg_glass_75_ffffff_1x400.png" />
+    <None Remove="Resources\Web\css\custom-theme\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <None Remove="Resources\Web\css\custom-theme\images\ui-bg_inset-soft_95_fef1ec_1x100.png" />
+    <None Remove="Resources\Web\css\custom-theme\images\ui-icons_222222_256x240.png" />
+    <None Remove="Resources\Web\css\custom-theme\images\ui-icons_2e83ff_256x240.png" />
+    <None Remove="Resources\Web\css\custom-theme\images\ui-icons_454545_256x240.png" />
+    <None Remove="Resources\Web\css\custom-theme\images\ui-icons_888888_256x240.png" />
+    <None Remove="Resources\Web\css\custom-theme\images\ui-icons_cd0a0a_256x240.png" />
+    <None Remove="Resources\Web\css\custom-theme\jquery-ui-1.8.16.custom.css" />
+    <None Remove="Resources\Web\css\jquery.treeTable.css" />
+    <None Remove="Resources\Web\css\ohm_web.css" />
+    <None Remove="Resources\Web\images\toggle-collapse-dark.png" />
+    <None Remove="Resources\Web\images\toggle-collapse-light.png" />
+    <None Remove="Resources\Web\images\toggle-expand-dark.png" />
+    <None Remove="Resources\Web\images\toggle-expand-light.png" />
+    <None Remove="Resources\Web\images\transparent.png" />
+    <None Remove="Resources\Web\index.html" />
+    <None Remove="Resources\Web\js\jquery-1.7.2.min.js" />
+    <None Remove="Resources\Web\js\jquery-ui-1.8.16.custom.min.js" />
+    <None Remove="Resources\Web\js\jquery.tmpl.min.js" />
+    <None Remove="Resources\Web\js\jquery.treeTable.min.js" />
+    <None Remove="Resources\Web\js\knockout-2.1.0.min.js" />
+    <None Remove="Resources\Web\js\knockout.mapping-latest.min.js" />
+    <None Remove="Resources\Web\js\ohm_web.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ati.png" />
+    <EmbeddedResource Include="Resources\barback.png" />
+    <EmbeddedResource Include="Resources\barblue.png" />
+    <EmbeddedResource Include="Resources\bigng.png" />
+    <EmbeddedResource Include="Resources\chip.png" />
+    <EmbeddedResource Include="Resources\clock.png" />
+    <EmbeddedResource Include="Resources\computer.png" />
+    <EmbeddedResource Include="Resources\control.png" />
+    <EmbeddedResource Include="Resources\cpu.png" />
+    <EmbeddedResource Include="Resources\data.png" />
+    <EmbeddedResource Include="Resources\factor.png" />
+    <EmbeddedResource Include="Resources\fan.png" />
+    <EmbeddedResource Include="Resources\flow.png" />
+    <EmbeddedResource Include="Resources\gadget.png" />
+    <EmbeddedResource Include="Resources\hdd.png" />
+    <EmbeddedResource Include="Resources\level.png" />
+    <EmbeddedResource Include="Resources\load.png" />
+    <EmbeddedResource Include="Resources\mainboard.png" />
+    <EmbeddedResource Include="Resources\nvidia.png" />
+    <EmbeddedResource Include="Resources\power.png" />
+    <EmbeddedResource Include="Resources\ram.png" />
+    <EmbeddedResource Include="Resources\smallicon.ico" />
+    <EmbeddedResource Include="Resources\temperature.png" />
+    <EmbeddedResource Include="Resources\voltage.png" />
+    <EmbeddedResource Include="Resources\Web\css\custom-theme\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <EmbeddedResource Include="Resources\Web\css\custom-theme\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <EmbeddedResource Include="Resources\Web\css\custom-theme\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <EmbeddedResource Include="Resources\Web\css\custom-theme\images\ui-bg_glass_75_dadada_1x400.png" />
+    <EmbeddedResource Include="Resources\Web\css\custom-theme\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <EmbeddedResource Include="Resources\Web\css\custom-theme\images\ui-bg_glass_75_ffffff_1x400.png" />
+    <EmbeddedResource Include="Resources\Web\css\custom-theme\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <EmbeddedResource Include="Resources\Web\css\custom-theme\images\ui-bg_inset-soft_95_fef1ec_1x100.png" />
+    <EmbeddedResource Include="Resources\Web\css\custom-theme\images\ui-icons_222222_256x240.png" />
+    <EmbeddedResource Include="Resources\Web\css\custom-theme\images\ui-icons_2e83ff_256x240.png" />
+    <EmbeddedResource Include="Resources\Web\css\custom-theme\images\ui-icons_454545_256x240.png" />
+    <EmbeddedResource Include="Resources\Web\css\custom-theme\images\ui-icons_888888_256x240.png" />
+    <EmbeddedResource Include="Resources\Web\css\custom-theme\images\ui-icons_cd0a0a_256x240.png" />
+    <EmbeddedResource Include="Resources\Web\css\custom-theme\jquery-ui-1.8.16.custom.css" />
+    <EmbeddedResource Include="Resources\Web\css\jquery.treeTable.css" />
+    <EmbeddedResource Include="Resources\Web\css\ohm_web.css" />
+    <EmbeddedResource Include="Resources\Web\images\toggle-collapse-dark.png" />
+    <EmbeddedResource Include="Resources\Web\images\toggle-collapse-light.png" />
+    <EmbeddedResource Include="Resources\Web\images\toggle-expand-dark.png" />
+    <EmbeddedResource Include="Resources\Web\images\toggle-expand-light.png" />
+    <EmbeddedResource Include="Resources\Web\images\transparent.png" />
+    <EmbeddedResource Include="Resources\Web\index.html" />
+    <EmbeddedResource Include="Resources\Web\js\jquery-1.7.2.min.js" />
+    <EmbeddedResource Include="Resources\Web\js\jquery-ui-1.8.16.custom.min.js" />
+    <EmbeddedResource Include="Resources\Web\js\jquery.tmpl.min.js" />
+    <EmbeddedResource Include="Resources\Web\js\jquery.treeTable.min.js" />
+    <EmbeddedResource Include="Resources\Web\js\knockout-2.1.0.min.js" />
+    <EmbeddedResource Include="Resources\Web\js\knockout.mapping-latest.min.js" />
+    <EmbeddedResource Include="Resources\Web\js\ohm_web.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="3.0.0-preview8.19405.3" />
+    <PackageReference Include="OxyPlot.WindowsForms" Version="2.0.0-unstable1035" />
+    <PackageReference Include="System.Management" Version="4.6.0-preview8.19405.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenHardwareMonitorStd\OpenHardwareMonitorStd.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Aga.Controls">
+      <HintPath>..\External\Aga.Controls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="GUI\AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Update="GUI\CrashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\CrashForm.Designer.cs">
+      <DependentUpon>CrashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="GUI\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="GUI\ParameterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\ParameterForm.Designer.cs">
+      <DependentUpon>ParameterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="GUI\PlotPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\PortForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\PortForm.Designer.cs">
+      <DependentUpon>PortForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="GUI\ReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\ReportForm.Designer.cs">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="GUI\SplitContainerAdv.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="WMI\WmiProvider.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="GUI\AboutBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GUI\CrashForm.resx">
+      <DependentUpon>CrashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GUI\MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GUI\ParameterForm.resx">
+      <DependentUpon>ParameterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GUI\PortForm.resx">
+      <DependentUpon>PortForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GUI\ReportForm.resx">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+
+</Project>
