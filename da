@@ -1,0 +1,424 @@
+[33mcommit dcce62e1652319cad708623f61f881b5fe26593b[m[33m ([m[1;36mHEAD -> [m[1;32mCoreTests[m[33m)[m
+Author: Tomasz <piotrowski.kat@gmail.com>
+Date:   Thu Aug 29 08:47:33 2019 +0200
+
+    Add new project for .NET Std
+
+[33mcommit 9b524d7da54842d6f005db927c1dda68e5e07a5f[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: LazizEx <laziz@mail.ru>
+Date:   Mon Aug 26 09:14:31 2019 +0300
+
+    Added mothrboard ASUS A88X-PLUS fan (chip Fintek F71811/812)
+
+[33mcommit e199e0ccc69b4da92495266ebc0faf7daad97608[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Mon Jan 8 22:09:58 2018 +0100
+
+    Added experimental support for Intel Atom CPUs with Apollo Lake microarchitecture. Added experimental support for Intel model 55h Skylake CPUs.
+
+[33mcommit e93e77d527649079ba41945510052fbd357e1e1d[m
+Merge: ba523c8 5621add
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Sun Jan 22 19:16:05 2017 +0100
+
+    Merge pull request #915 from rmattuschka/patch-1
+    
+    Update IntelCPU.cs
+
+[33mcommit 5621add1064206f68ecc07fe0086f32aa0e1516e[m
+Author: rmattuschka <rmattuschka@gmx.net>
+Date:   Sat Jan 21 14:51:38 2017 +0100
+
+    Update IntelCPU.cs
+    
+    This fixed the Issue #911
+    Kaby Lake 7700k incorrect clock speed
+
+[33mcommit ba523c8f924dc7856cd76aa2bfa5ea3863a6d8d4[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Wed Jan 18 20:12:53 2017 +0100
+
+    Updated the year to 2017 and fixed a typo in the about box.
+
+[33mcommit d53db334dcb75afcd5dac8b8ce7e1754e0c1f0f5[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Wed Jan 18 20:01:46 2017 +0100
+
+    Fixed issue #909 (missing Intel 7700K core temps)
+
+[33mcommit da6a875bb5d16b6a068dec13384fe03265c441d9[m
+Merge: 336a4b5 d3e0f20
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Wed Jan 18 19:56:00 2017 +0100
+
+    Merge pull request #894 from hirschmann/amd-puma
+    
+    Add support for AMD Puma CPU architecture
+
+[33mcommit d3e0f20d63ec9f2cfb109778fea48d4c73e902c3[m
+Author: Stefan Hirschmann <st.hirschmann@t-online.de>
+Date:   Fri Dec 23 22:33:24 2016 +0100
+
+    Add support for AMD Puma CPU architecture
+
+[33mcommit 336a4b5a0cb94dd5422d1815076ed72ff044c97d[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Wed Nov 9 20:16:11 2016 +0100
+
+    Fixed the Samsung SSD Total Bytes Written sensor to use 48-bit raw data (instead of 32-bit) and corrected the label to "Total Bytes Written" instead of "Total LBA Written".
+
+[33mcommit 556891a8c96705781ec024fb89b0e2953ca05ea3[m[33m ([m[1;33mtag: 0.8.0[m[33m)[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Sun Nov 6 17:18:36 2016 +0100
+
+    Updated the version.
+
+[33mcommit c0d4125debde8ccef1201781e9ee5a134caa665d[m
+Merge: 9be5da3 bb45f65
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Sun Nov 6 15:03:14 2016 +0100
+
+    Merge branch 'Added customizable pen colors'
+
+[33mcommit bb45f65447ecd3acdf6fbf4386c5132483dd54b9[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Sun Nov 6 14:51:24 2016 +0100
+
+    Added a menu item to reset the pen color (to use again the plotColorPalette based color). Moved the saving/loading code to the SensorNode class (as with the other properties).
+
+[33mcommit 9be5da3e0b41f88a8d7813f03024d8b68e504244[m
+Merge: 0973ff1 4f87cc3
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Sun Nov 6 12:29:42 2016 +0100
+
+    Merge branch 'Nvidia VRAM AddOn'
+
+[33mcommit 4f87cc3bb47d5ceaab11fde117fe719ad2deb6aa[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Sun Nov 6 12:15:29 2016 +0100
+
+    Corrected the source code format.
+
+[33mcommit 0973ff1a15d3f38d15438ab8203ff3722f520c8a[m
+Merge: dbb77c9 8938d83
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Sun Nov 6 11:39:23 2016 +0100
+
+    Merge pull request #865 from hirschmann:kabylake
+
+[33mcommit dbb77c9ee87e4e5b4fd91a1a54fc81bd8f91c5ff[m
+Merge: da432ef 5605a5e
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Sun Nov 6 10:46:48 2016 +0100
+
+    Merge pull request #816 from cmoetzing/airmont
+    
+    Add support for Intel Airmont microarchitecture
+
+[33mcommit 8938d83bd9621ceb53bbf6dd38fd62c9e24aad08[m
+Author: Stefan Hirschmann <st.hirschmann@t-online.de>
+Date:   Wed Oct 12 13:19:45 2016 +0200
+
+    Add support for Intel Kaby Lake microarchitecture
+
+[33mcommit 9479c08df9f0ee1e4d4b34a1a9715c5f7f6136f9[m
+Author: shrddr <qwerty.zigzag@gmail.com>
+Date:   Wed Jul 13 21:17:01 2016 +0300
+
+    Added customizable pen colors
+    
+    New node property, penColor, is null by default; this means that color
+    will be picked using the existing plotColorPalette method.
+    New node context menu item, Pen color, lets user choose the color to be
+    used when plotting this particular node.
+    This property is also saved/loaded from settings based on sensor
+    identifier.
+
+[33mcommit 5605a5ead51326da25753486a9a52c6c479ab039[m
+Author: Christian Mötzing <christian@moetzing.net>
+Date:   Sat Jun 18 18:27:43 2016 +0200
+
+    Add support for Intel Airmont microarchitecture
+
+[33mcommit da432ef07cf125c019afd3a27f447da428404611[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Thu May 26 17:27:24 2016 +0200
+
+    Fixed the Assembly.GetEntryAssembly() can be null issue when loading the library from unmanaged code.
+
+[33mcommit 5ce44e35b9a88ac9a05c76a2e2a7f39a42385639[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Thu May 26 16:55:07 2016 +0200
+
+    Added the .gitignore file.
+
+[33mcommit 3b0a600c8929eb585305f36afdf8936538904d7d[m
+Merge: e7bb68e 02a1573
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Thu May 26 16:39:29 2016 +0200
+
+    Merge pull request #768 from nlurski/master
+    
+    Set up application targeting to fix OS version bug
+
+[33mcommit e7bb68e8778212df4686facda7aa084c7c770c63[m
+Merge: 47e23ca 9b251b2
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Thu May 26 16:24:28 2016 +0200
+
+    Merge pull request #772 from kurdtkobain/patch-1
+    
+    Add Device ID for Family 15h Model 30h APU
+
+[33mcommit 47e23ca295a1184782e9de29656c24a34ab4e692[m
+Merge: d7316f8 a7d45d2
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Thu May 26 16:11:53 2016 +0200
+
+    Merge branch 'SSD-Sensors'
+
+[33mcommit a7d45d22b16e9817d36bf1a8405ea59302ee2f17[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Thu May 26 15:45:10 2016 +0200
+
+    Corrected the source code format.
+
+[33mcommit d7316f81bbd627f26a20e5148275fcfd05aa7e12[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Thu May 26 15:14:29 2016 +0200
+
+    Added Intel CPU models 0x4F and 0x56.
+
+[33mcommit bdbe56e8dfd8ae8e53fc41fd1dca249249025f65[m
+Merge: b8a66b9 7c32ea9
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Thu May 26 13:57:53 2016 +0200
+
+    Merge pull request #804 from tpruvot/broadwell
+    
+    Broadwell: handle missing desktop model id for 5775C
+
+[33mcommit 5b69dc2a432174a963c84b8e06f4fed916a9cc3b[m
+Author: Arkadiusz Zachert <arkadiusz.zachert@nokia.com>
+Date:   Tue May 24 08:46:49 2016 +0200
+
+    Added support for PLEXTOR's host writes/reads
+
+[33mcommit 7c32ea95262161f84116f22a89b1d2df38cbc5e8[m
+Author: Tanguy Pruvot <tanguy.pruvot@gmail.com>
+Date:   Sun May 22 02:13:07 2016 +0200
+
+    Broadwell: handle missing desktop model id for 5775C
+
+[33mcommit 95fe021d6ade9f8e468860565ba6cb5b5da5679b[m
+Author: Arkadiusz Zachert <arkadiusz.zachert@gmail.com>
+Date:   Thu May 19 21:38:28 2016 +0200
+
+    Showing Samsung SSD Total LBAs Written. Based on specification http://www.samsung.com/global/business/semiconductor/minisite/SSD/downloads/document/07_Communicating_With_Your_SSD.pdf
+
+[33mcommit 51c6d776e1e802c3e3b9670a627d0c2b9c8c11ac[m
+Author: DarthDestroyer <christbaumschmuck@gmail.com>
+Date:   Thu Apr 28 19:59:52 2016 +0200
+
+    Update NvidiaGPU.cs
+
+[33mcommit b3140327d90cfd42b9abe4b4fb3eb8337d185274[m
+Author: DarthDestroyer <christbaumschmuck@gmail.com>
+Date:   Thu Apr 28 19:58:59 2016 +0200
+
+    Update ISensor.cs
+
+[33mcommit 6ea14cb58d2208aff5a2460874c5ee0fcc96063b[m
+Author: DarthDestroyer <christbaumschmuck@gmail.com>
+Date:   Thu Apr 28 19:58:19 2016 +0200
+
+    Update TypeNode.cs
+
+[33mcommit 0469416627b6ab2be23ba23e755a1c94a5c0f7b5[m
+Author: DarthDestroyer <christbaumschmuck@gmail.com>
+Date:   Thu Apr 28 19:57:12 2016 +0200
+
+    Update SensorNode.cs
+
+[33mcommit 9b251b27ccab619e2d56b2e2803081a5165ee3e3[m
+Author: kurdtkobain <kurdtkobain@users.noreply.github.com>
+Date:   Tue Jan 12 12:36:57 2016 -0500
+
+    Add Device ID for Family 15h Model 30h APU
+    
+    This works with my A8-7600 APU to get the useless CurTmpTjSel not much else.
+
+[33mcommit 02a1573b78f12031a16f15dd57558fefd86e4723[m
+Author: Nick Lurski <nlurski@gmail.com>
+Date:   Sat Jan 2 23:42:24 2016 -0400
+
+    Targeted application for Windows 10 and 8.1 to fix the incorrect OS version showing up in reports
+
+[33mcommit b8a66b9cb71e201ab289c48d64a06dc8eda726cb[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Sun Dec 20 15:54:19 2015 +0100
+
+    Added experimental support for the ITE IT8628E chip (issue #759).
+
+[33mcommit 0e5e4afe5e38dc8e120349af521c05d8fdefed61[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Fri Dec 18 22:49:53 2015 +0100
+
+    Corrected the source formatting.
+
+[33mcommit 6cbfdce0bca1c4f5b3abe65fc9a95fdde88a7e53[m
+Author: ivanatpr <ivangarciagithub@gmail.com>
+Date:   Wed Dec 16 03:04:39 2015 -0500
+
+    Prevent plot from reusing line colors if possible
+    
+    CURRENTLY: the code that sets plot line colors loops determines a
+    default color for the all sensors, such that, AFAIK, a given sensor will
+    always get the same plot color across different runs of the application
+    (as long as the list of all detected sensors stays the same). This
+    consistency is nice, but there's no duplicate handling so if the user is
+    unlucky they can end up with duplicate colors in their plot even when
+    the plot only contains 2 sensors.
+    
+    MY CHANGE: I added a second step that attempts to find a new color for
+    sensors in the plot whose color is being used by another sensor.
+    However, I tried to keep as much of the old consistency as I could, so
+    the default color for each sensor is still calculated in the same way as
+    before. That way if there aren't any duplicate colors, all sensors will
+    keep the same color they had before the change, so I'm guessing most
+    users won't even notice the change.
+    That said, in certain circumstances this change can cause plot colors to
+    jump around a bit as sensors get added/removed from the plot. For
+    Example, if sensors A & B have the same default color and you add both
+    to the plot, sensor B will get assigned a different color in order to
+    prevent a duplicate color. However if you then remove sensor A from the
+    plot, sensor B will suddenly revert to it's default color, which may
+    seem to the user like mysterious action at a distance. Should be rare
+    though.
+
+[33mcommit 7b6fc115d86c3687d6ea9665f717becf18fc50a0[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Sun Dec 13 18:11:48 2015 +0100
+
+    Added a SensorName property to the SmartAttribute class in order to support sensor names that are different from the attribute name. Used the SensorName property to replace the "Temperature Difference From 100" sensor with a standard "Temperature" sensor. Closed issue #717.
+
+[33mcommit f069e4c6e8a47302c30e6cf80ed1318530b7beb2[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Tue Dec 8 19:58:54 2015 +0100
+
+    Updated the about box date.
+
+[33mcommit 9afb24db9d2e91df1936eabe334ae64d004235b5[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Tue Dec 8 19:54:21 2015 +0100
+
+    Added experimental support for the ITE IT8620E chip (using the same implementation as for the ITE IT8772E).
+
+[33mcommit 5dfad04b31e7e32cf276fb195d0f38e3aaa147e7[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Sun Dec 6 19:42:58 2015 +0100
+
+    Fixed issue #701. Writing temporary 0 values to the sensor (NVIDIA GPU clocks) gets them recorded and leads to wrong sensor min values and wrong recorded/averaged values for plotting.
+
+[33mcommit c3beb9a6521800a0c50a950c4c71e2a97ca07428[m
+Merge: 1fa4a31 d7a7ccd
+Author: DarthDestroyer <christbaumschmuck@gmail.com>
+Date:   Sun Dec 6 17:22:18 2015 +0100
+
+    Merge pull request #1 from DarthDestroyer/Issue-#753-AddOon
+    
+    VRAM used / free / total as Value? #753
+
+[33mcommit d7a7ccd1bc913fb1276da82caeb5c57010cfc9fb[m
+Author: DarthDestroyer <christbaumschmuck@gmail.com>
+Date:   Sun Dec 6 17:20:03 2015 +0100
+
+    VRAM used / free / total as Value? #753
+
+[33mcommit 1fa4a31ac07590257cf534fe8dd2346881e67fe0[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Fri Dec 4 16:32:48 2015 +0100
+
+    Extracted the register and value port state and some methods from the LPCIO class into a new class LPCPort. Fixed issue #733 (unlocking the i/o space after sleep).
+
+[33mcommit 135124427be8df0f7f340e5b74833f74f15f5b4c[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Tue Dec 1 19:05:00 2015 +0100
+
+    Fixed issue #747 introduced in commit 9e32a33. The IsNuvotonVendor check should be done after setting the vendor ID registers (and not before).
+
+[33mcommit e19faf5047ac88ea5e82b516397c15afb69c480d[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Sun Nov 22 14:21:50 2015 +0100
+
+    Added model 0x4E to the Skylake microarchitecture.
+
+[33mcommit f3959b535e5cc651dae8b3e6ef9887fff51470b5[m
+Author: Kevin Van den Abeele <beele@users.noreply.github.com>
+Date:   Mon Sep 21 19:45:49 2015 +0200
+
+    Skylake support
+    
+    Added initial support for skylake cpus:
+    - Clock speed, core temp and load should all be working
+    - Power usage does not seem to be correct at the moment
+
+[33mcommit dc33c420c48ab1b6071aa86700e1f4a541d6ed5b[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Sun Nov 15 16:42:42 2015 +0100
+
+    Removed the default value for NUVOTON_VENDOR_ID registers.
+
+[33mcommit 9e32a33cbf2497eeb5e9d5487b15e4a3dacee31d[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Sun Nov 15 16:35:26 2015 +0100
+
+    Merged the Nuvoton NCT6102D/NCT6106D implementation back into the NCT677X class.
+
+[33mcommit 2c1fe299cc542d0b88d3caa558d9d583c363e96e[m
+Author: Deve <deveee@gmail.com>
+Date:   Wed Aug 26 17:40:22 2015 +0200
+
+    Implement Nuvoton NCT6102D/NCT6106D chips.
+
+[33mcommit 7614363308dbc5dfc8b64ed919746d4f7f8bc37e[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Tue Dec 30 22:49:32 2014 +0000
+
+    Fixed an OverflowException when trying to use (unsupported) 64-bit thread affinity masks on 32-bit systems.
+
+[33mcommit f054320731b4c5efb245e9b124b5f2c4288b72c9[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Tue Dec 30 22:47:39 2014 +0000
+
+    Fixed the following issue (present only on 32-bit systems):
+    
+    Version: 0.7.0.0
+    
+    System.NullReferenceException: Object reference not set to an instance of an object.
+       at OpenHardwareMonitor.GUI.MainForm.timer_Tick(Object sender, EventArgs e)
+       at System.Windows.Forms.Timer.OnTick(EventArgs e)
+       at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+       at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+    
+    Common Language Runtime: 4.0.30319.18444
+    Operating System: Microsoft Windows NT 6.1.7601 Service Pack 1
+    Process Type: 32-Bit
+
+[33mcommit bf8d491ef28c2793e284189b518c06d24e35b0f4[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Tue Dec 30 21:04:54 2014 +0000
+
+    Fixed Issue 651.
+
+[33mcommit ebeb96c648571655cf620b7fe68dd8499f65f0a9[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Tue Dec 30 17:35:29 2014 +0000
+
+    Changed the settings save code to use a two file based approach in order to reduce cases where settings are lost or reset (Fixed Issue 501).
+
+[33mcommit dc69a9431c5fb4c734b44480978bbbec4df8c555[m
+Author: Michael Möller <mmoeller@openhardwaremonitor.org>
+Date:   Tue Dec 30 16:02:52 2014 +0000
+
+    Added a new "Undefined" control mode. Changed the GPU fan control to restore to default (auto) settings when the Open Hardware Monitor closes (unless the control remained in "Undefined" mode).
